@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--------------To make web page responsive------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+
+    <style>
+        /* change default style for submit button */
+        input[type="submit"] {
+            border: 1px solid black;
+            border-radius: 100px;
+            padding: 21px 30px;
+            background-color: rgba(10, 70, 233, 0.7);
+            font-size: 19px;
+            font-family: 'Courier New', Courier, monospace;
+            align-items: center;
+            box-shadow: -2px 0px .5px white;
+            font-weight: bold;
+            color: rgb(187, 183, 183);
+        }
+
+        /* responsive web page for phones*/
+        @media only screen and (max-width: 568px) {
+            input[type="submit"] {
+                padding: 15px 14px;
+            }
+        }
+    </style>
+</head>
+
+<!----------------------------change color of body---------------------------->
+
+<body style="background-image: linear-gradient(to right ,#870000,#190A05)">
+    <!--space-->
+    <p style="margin-bottom: 50px;">
+
+    </p>
+
+    <!---------create table for orgainzing submit buttons and change style of table-------->
+    <table border="0" align="center" style=" width: 5%; text-align: center; height: 500px;">
+        <tbody>
+            <form method="POST" action="Status.php" target="#">
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Forward" name="Forward"></td>
+                    <td></td>
+
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Left" name="Left"></td>
+                    <td><input type="submit" value="Stop" name="Stop"
+                            style="background-color: rgba(67, 114, 243, 0); border: 2px solid white; color: white;  box-shadow: 0px 0px ">
+                    </td>
+                    <td><input type="submit" value="Right" name="Right"></td>
+
+                </tr>
+
+
+
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Backward" name="Backward"></td>
+            </form>
+            <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
