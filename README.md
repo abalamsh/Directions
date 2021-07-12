@@ -20,10 +20,5 @@ There is <b>Three</b> files:
 <img src="Screen Shot5.png" >
 <img src="Screen Shot6.png" >
 <img src="Screen Shot7.png" >
-<img src="Screen Shot8.png" >
-<img src="Screen Shot9.png" >
-<img src="Screen Shot10.png" >
-<img src="Screen Shot11.png" >
-<img src="Screen Shot12.png" >
-<img src="Screen Shot13.png" >
+
 
